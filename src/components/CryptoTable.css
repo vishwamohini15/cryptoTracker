@@ -1,0 +1,28 @@
+/* src/components/CryptoTable.css */
+.table-container {
+     overflow-x: auto;
+     padding: 1rem;
+   }
+   
+   table {
+     width: 100%;
+     border-collapse: collapse;
+     font-size: 14px;
+   }
+   
+   th, td {
+     padding: 0.6rem;
+     text-align: center;
+     border-bottom: 1px solid #ddd;
+   }
+   
+   .green {
+     color: green;
+     font-weight: bold;
+   }
+   
+   .red {
+     color: red;
+     font-weight: bold;
+   }
+   
