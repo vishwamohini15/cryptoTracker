@@ -1,3 +1,4 @@
+import './App.css'
 import React, { useEffect } from 'react';
 import CryptoTable from './components/CryptoTable';
 import updateCryptoData from './utils/updateData';
@@ -18,7 +19,7 @@ function App() {
   }, [assets, dispatch]);
 
   return (
-    <div>
+    <div className='App'>
       <h1 style={{ textAlign: 'center' }}>💎 Crypto Tracker</h1>
       <CryptoTable />
     </div>
